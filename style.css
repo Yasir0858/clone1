@@ -140,4 +140,10 @@
     height: 30px;
     width: 130px;
    }
+   .hero-section p{
+    text-align: center;
+   }
+   .hero-section h6{
+     text-align: center; 
+   }
 }
