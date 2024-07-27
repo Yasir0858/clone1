@@ -1,0 +1,143 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(background.jpg);
+    /* background-image: url('./IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_small.jpg'); */
+
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+
+}
+
+.navbar img{
+    width: 30%;
+}
+
+.navbar span button{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+#eng-btn{
+
+    background-color: black;
+    border: 1px solid whitesmoke;
+    width: 140px;
+   
+}
+
+.hero-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+
+.hero-section h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.hero-section h6{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.hero-section p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.hero-section span{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section span input{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(54, 53, 53, 0.654);
+    padding-left: 20px;
+    border: 1px solid white;
+
+}
+.hero-section span button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+@media (max-width:480px){
+    .navbar{
+        height: 90px;
+        width: 100%;
+        /* border:  2px solid white; */
+        padding: 0%;
+        display: flex;
+        
+    }
+    .navbar span{
+        height: 100%;
+        width: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        /* border: 2px solid white; */
+    }
+   .navbar span{
+    height: 90px;
+    width: 180px;
+    /* border: 2px solid white; */
+   }
+   .navbar span button{
+    height: 30px;
+    width:60px;
+   }
+   .navbar span button#eng-btn{
+    width: 80px;
+   }
+   .hero-section span input{
+    height: 30px;
+    width: 200px;
+   }
+   .hero-section span button{
+    height: 30px;
+    width: 130px;
+   }
+}
